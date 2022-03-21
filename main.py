@@ -3,8 +3,8 @@ import telebot
 from telebot.types import LabeledPrice, ShippingOption
 from telebot import types
 
-token = '5079766515:AAEUC5hdZaasX1-O5KOvd1-kugFX_UVKo84'
-provider_token = '632593626:TEST:sandbox_i48460313099'  # @BotFather -> Bot Settings -> Payments
+token = ''
+provider_token = ''  # @BotFather -> Bot Settings -> Payments
 bot = telebot.TeleBot(token)
 
 prices = [LabeledPrice(label='Caffeine - Sunburst Orange', amount=65000), LabeledPrice('Winter Discount', -5100)]
